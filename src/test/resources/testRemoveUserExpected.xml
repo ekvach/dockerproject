@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+<APP_USERS ID='2' LOGIN='!ekvach' PASSWORD='!kvachpass' EMAIL='testemail2@test.com' FIRSTNAME='!yevhen' LASTNAME='!kvach' BIRTHDAY='1998-12-06' USER_ROLEID='2'/>
+<APP_USERS ID='3' LOGIN='third' PASSWORD='third' EMAIL='testemail3@test.com' FIRSTNAME='Tom' LASTNAME='Win' BIRTHDAY='2000-03-20' USER_ROLEID ='3'/>
+</dataset>

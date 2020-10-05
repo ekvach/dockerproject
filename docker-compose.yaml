@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  db:
+    container_name: kvach-db
+    image: "oscarfonts/h2"
+    ports:
+      - "81:81"
+      - "1521:1521"
+    volumes:
+      - "./h2/:/opt/h2-data"
+
+
+  app:
+    build: .
+    depends_on:
+      - db
+    container_name: kvach-app
+    ports:
+     - 8091:8091
+    command: java -jar ./target/kvachdockerproject-1.0-SNAPSHOT-jar-with-dependencies.jar
